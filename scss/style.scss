@@ -1,0 +1,12 @@
+/*!
+ * GDPR Portal
+ * @version v1.0.6
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ */
+@mixin nondesktop {
+    @media only screen and (min-width:0) and (max-width:979px) {
+        @content;
+    }
+}
